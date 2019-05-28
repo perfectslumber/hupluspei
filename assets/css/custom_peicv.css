@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	scroll-behavior: smooth;
+}
+
+a{
+	color: #000000;
+}
+
+#surname{
+	color: dimgrey;
+	text-transform: uppercase;
+}
+
+
+section.resume-section .resume-item .resume-date {
+	min-width: none
+}
+@media (min-width:768px) {
+	section.resume-section {
+		min-height: 100vh
+	}
+	section.resume-section .resume-item .resume-date {
+		min-width: 18rem
+	}
+}
+
+@media (min-width:768px) {
+	.text-md-left {
+		text-align: left!important
+	}
+	.text-md-right {
+		text-align: right!important
+	}
+	.text-md-center {
+		text-align: center!important
+	}
+}
