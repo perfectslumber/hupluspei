@@ -15,9 +15,21 @@ a{
 }
 
 
+@media (max-width: 991.98px){
+	#cvimg1{
+		display: none;
+	}
+	
+	.cvimg{
+		background-image: url("../img/p_CV2.jpg");
+	}
+	
+}
+
 section.resume-section .resume-item .resume-date {
 	min-width: none
 }
+
 @media (min-width:768px) {
 	section.resume-section {
 		min-height: 100vh
@@ -26,15 +38,9 @@ section.resume-section .resume-item .resume-date {
 		min-width: 18rem
 	}
 }
-
-@media (min-width:768px) {
-	.text-md-left {
-		text-align: left!important
-	}
-	.text-md-right {
-		text-align: right!important
-	}
-	.text-md-center {
-		text-align: center!important
+@media (min-width:992px) {
+	section.resume-section {
+		padding-top: 3rem!important;
+		padding-bottom: 3rem!important
 	}
 }

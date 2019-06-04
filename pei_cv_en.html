@@ -27,9 +27,12 @@
 <link href="assets/lib/remodal/remodal.css" rel="stylesheet">
 <link href="assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
 <link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+	
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
 <link href="assets/css/theme.css" rel="stylesheet">
 <link href="assets/css/custom_peicv.css" rel="stylesheet">
-<!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+
 
 </head>
 
@@ -66,7 +69,7 @@
       <li class="fancynav-item"> <a class="fancynav-link js-scroll-trigger" href="#skills" data-fancyscroll="data-fancyscroll"><span class="fancynav-link-content">Skills</span></a> </li>
 	  <li class="fancynav-item"> <a class="fancynav-link js-scroll-trigger" href="#awards" data-fancyscroll="data-fancyscroll"><span class="fancynav-link-content">Awards</span></a> </li>
       <li class="fancynav-item"> <a class="fancynav-link js-scroll-trigger" href="#contact" data-fancyscroll="data-fancyscroll"><span class="fancynav-link-content">Contact</span></a> </li>
-      <li class="fancynav-item"> <a class="fancynav-link js-scroll-trigger" href="index.html"><span class="fancynav-link-content">More About Us</span></a> </li>
+      <li class="fancynav-item"> <a class="fancynav-link js-scroll-trigger" href="index.html" target="_blank"><span class="fancynav-link-content">More About Us</span></a> </li>
     </ul>
   </div>
 </nav>
@@ -100,12 +103,15 @@
   <section class="py-0" id="page-casestudy">
     <div class="container-fluid px-lg-0">
       <div class="row">
+	<!-- cv image -->
         <div class="col-lg-4 px-0">
           <div class="sticky-top vh-50 vh-lg-100">
-            <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white h-100" data-options='{"items":1,"autoplay":true,"nav":true,"loop":true,"autoplayHoverPause":true,"animateOut":"fadeOut"}' data-zanim-lg='{"animation":"zoom-out-slide-right","delay":0.4}'
-                  data-zanim-trigger="scroll"> <img class="fit-cover vh-lg-100" src="assets/img/p_CV1.JPG" alt="A photo of Kexin"> <!-- <img class="fit-cover vh-lg-100" src="assets/img/hp_qinan2.jpg" alt="A photo of Qinan making a cake"> <img class="fit-cover vh-lg-100" src="assets/img/hp_qinan3.jpg" alt="A wedding photo of Qinan and Kexin"> --> </div>
+            <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white h-100 cvimg" data-options='{"items":1,"autoplay":true,"nav":true,"loop":true,"autoplayHoverPause":true,"animateOut":"fadeOut"}' data-zanim-lg='{"animation":"zoom-out-slide-right","delay":0.4}'
+                  data-zanim-trigger="scroll"> <img class="fit-cover vh-lg-100" id="cvimg1" src="assets/img/p_CV1.JPG" alt="A photo of Kexin"> <!-- <img class="fit-cover vh-lg-100" id="cvimg2" src="assets/img/p_CV2.jpg" alt="A photo of Kexin at Louvre"> <img class="fit-cover vh-lg-100" src="assets/img/hp_qinan3.jpg" alt="A wedding photo of Qinan and Kexin"> --> </div>
           </div>
         </div>
+		  
+		 <!-- cv content -->
         <div class="col-lg-8 bg-white py-6 py-lg-4 py-xl-6">
           <div class="row h-100 justify-content-center">
             <div class="col-lg-10">
@@ -114,158 +120,255 @@
                 <div data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll"><a href="mailto:kexin.pei@gmail.com">
                   <p class="lead text-sans-serif font-weight-normal text-600">kexin.pei@gmail.com</p>
                   </a></div>
-				  
-                <div class="overflow-hidden mt-5 border-top border-300" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
+				
+				<section class="resume-section">
+                <div class="overflow-hidden mt-5 pt-3 border-top border-300" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                   <h2 id="education">Education</h2>
                 </div>
-                <div class="row mt-4" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                  <div class="col-xl-9">
-                    <div class="overflow-hidden">
-						<div class="row">
-							<div class="col-md-8">
-                      		<h3>Middlebury Institute of International Studies at Monterey (MIIS)</h3>
-                      		<h4>Mater of Arts</h4>
-                      		<p class="lead text-sans-serif font-weight-normal text-600">Major: Translation and Localization Management (TLM)</p>
-							</div>
-							<div class="col-md-4 resume-date text-md-right">
-								August 2014 - May 2016 <br>Monterey, CA, US
-							</div>
-						</div>
-                      <h3>Peking University</h3>
-                      <h4>B.S. 2010-2014</h4>
-                      <p class="lead text-sans-serif font-weight-normal text-600">Major: Biological Sciences</p>
-                    </div>
-                  </div>
+				 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3 mt-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+           				 <h3 class="mb-3">Middlebury Institute of International Studies at Monterey (MIIS)</h3>
+            				<h4>Master of Arts</h4>
+            				<div>Translation and Localization Management</div>
+            				<p>GPA: 3.8/4.0</p>
+          			</div>
+          			<div class="resume-date text-md-right overflow-hidden">
+            			<span>August 2014 - May 2016 <br>Monterey, CA, US</span>
+          			</div>
+        		</div>
+				 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3 mt-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+           				 <h3 class="mb-3">The Chinese University of Hong Kong (CUHK)</h3>
+            				<h4>Bachelor of Arts</h4>
+            				<div>Translation</div>
+            				<p>Graduation with <em>First Class Honors</em></p>
+          			</div>
+          			<div class="resume-date text-md-right overflow-hidden">
+            			<span>September 2010 - July 2014 <br>Hong Kong</span>
+          			</div>
+				</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3 mt-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+           				 <h3 class="mb-3">Université Paris-Sorbonne (Paris IV)</h3>
+            				<p>English Department Exchange</p>
+          			</div>
+          			<div class="resume-date text-md-right overflow-hidden">
+            			<span>January - June 2014<br>Paris, France</span>
+          			</div>
+				</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3 mt-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+           				 <h3 class="mb-3">Universiteit Utrecht</h3>
+            				<p>Summer exchange</p>
+          			</div>
+          			<div class="resume-date text-md-right overflow-hidden">
+            			<span>Summer 2012<br>Utrecht, the Netherlands</span>
+          			</div>
+				</div>
+				
+                <div class="overflow-hidden mt-5 pt-3 border-top border-300" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                  <h2 id="experience">Experience</h2>
                 </div>
+					
+        		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3 mt-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">SDL Inc</h3>
+            		<h4 class="mb-3">Project Manager</h4>
+					<ul>
+					<li>Supervised a wide range of Financial projects, including, but not limited to, Fact Sheets, Prospectus, Shareholder Reports, Key Investor Information Documents, Key Fact Statement, and Regulatory Shareholder Communications</li>
+					<li>Reviewed the assigned jobs and assessed the need for additional information, such as compilation of glossaries, list of acronyms, technical terminology, and translation memories</li>
+					<li>Worked with translation teams and linguistic assets to ensure compliance with the company’s production workflows and ensured that quality and turnaround standards were met</li>
+					<li>Selected and assigned translation teams, negotiated rates and deadlines, and coordinated production with translators, proofreaders, in-country client reviewers, typesetters, and Customer Service Representatives</li>
+					<li>Monitored Status Reports and kept administrative personnel, salespersons, and Customer Service Representatives up-to-date at all times with respect to deliverable milestones and deadlines</li>
+					<li>Conducted quality checks of translation deliverables prior to client delivery</li>
+					</ul>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>July 2018 - 2019<br>New York, US</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3 mt-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">Donnelley Financial Solutions</h3>
+            		<h4 class="mb-3">Project Coordinator</h4>
+           			 <ul>
+					<li>Managed various types of Financial and Life Sciences projects that had different workflows</li>
+					<ul>
+					<li>Fostered seamless communication with clients and optimized workflows to accommodate client needs</li>
+					<li>Coordinated multilingual projects into 26+ languages; searched for resources for rare languages; liaised with linguists across different time zones</li>
+					<li>In charge of multi-step large volume projects (85k+ word count, 8k+ files into 17 languages, 3-week turnaround): oversaw production and end-to-end Quality/Version Control; improved automation process with engineers</li>
+					</ul>
+					<li>Worked with Sales team on production analysis, budget control and billing process</li>
+					</ul>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>July 2016 - July 2018<br>New York, US</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">MediaLocate, Inc.</h3>
+            		<h4 class="mb-3">Project Manager Intern</h4>
+            		<ul>
+					<li>Coordinated website, subtitling and gaming multimedia localization projects into 20+ languages </li>
+					<ul>
+					<li>Allocated translation resources, managed project scheduling and performed quality tracking</li>
+					<li>Carried out administrative tasks and internal QA in WorldServer</li>
+					</ul>
+					<li>Worked closely with cross-functional teams and resolved vendors’ queries to keep projects run smoothly</li>
+					</ul>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>September 2015 – May 2016<br>California, US</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">RR Donnelley Language Solutions</h3>
+            		<h4 class="mb-3">Project Coordinator Intern</h4>
+           			 <ul>
+					<li>Coordinated various multi-phase translation and localization projects</li>
+					<li>Kept up-to-date on post-production administrative tasks such as TM updates and invoicing</li>
+					</ul>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>May – August 2015<br>New York, US</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">United Nations Institute for Training and Research (UNITAR)</h3>
+            		<h4 class="mb-3">Project Manager Intern</h4>
+            		<p>Coordinated UNITAR's event management system translation project; Enforced the use of terminology; Managed/updated term base</p>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>December 2014 – May 2015<br>Remote</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">Translators Without Borders</h3>
+            		<h4 class="mb-3">Web Engineer Volunteer</h4>
+					<p>Participated in TWB’s Phoenix Project on website migration to WordPress; Researched on localization plugins and workflows for WordPress; Evaluated WordPress Multilingual Plugin based on various business requirements and provided recommendations to TWB</p>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>May 2015<br>Remote</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">Mozilla Firefox</h3>
+            		<h4 class="mb-3">Volunteer Linguistic Reviewer</h4>
+            		<p>Reviewed 4,500 translated strings for Firefox OS, flagged more than 250 mistakes; Provided feedbacks to the Multidimensional Quality Metrics platform</p>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>September 2014<br>Remote</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">The Champagne-Ardenne (France) Representative Office in China</h3>
+            		<h4 class="mb-3">Executive Assistant Intern</h4>
+            		<p>Created and designed the official website, responsible for website updates and maintenance; Interpreted for French government representatives during their one-week visit in Sichuan; Translated business correspondence, website news, cultural and economic cooperation projects</p>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>Summer 2013<br>Chengdu, China</span>
+          		</div>
+        		</div>
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          			<div class="overflow-hidden">
+            		<h3 class="mb-1">Research Centre for Translation</h3>
+            		<h4 class="mb-3">Assistant Editor</h4>
+            		<p>Edited and proofread research papers and translations for the journal <i>Renditions</i> according to the required house style; Coordinated public lectures and conferences; organized the flow of meetings and facilitated panel discussions</p>
+             		</div>
+          		<div class="resume-date text-md-right overflow-hidden">
+           			 <span>August - December 2013<br>Hong Kong</span>
+          		</div>
+        		</div>
+					
+                <div class="overflow-hidden mt-5 pt-3 border-top border-300" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                  <h2 id="skills">Skills</h2>
+                </div>
+				<div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+        		<div class="mb-3">Computer-Assisted Translation (CAT) &amp; Machine Translation (MT) Tools</div>
+        		<ul class="fa-ul">
+         		 <li>
+           		 <i class="fa-li fa fa-check"></i>SDL Trados</li>
+		  		<li>
+           		 <i class="fa-li fa fa-check"></i>WorldServer</li>
+          		<li>
+            	<i class="fa-li fa fa-check"></i>memoQ</li>
+          		<li>
+            	<i class="fa-li fa fa-check"></i>Wordfast Pro</li>
+		  		<li>
+            	<i class="fa-li fa fa-check"></i>Microsoft Translator Hub</li>
+        		</ul>
+					</div>
+		  		<div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+        		<div class="mb-3">Programming Languages &amp; Tools</div>
+        		<ul class="list-inline dev-icons">
+          		<li class="list-inline-item">
+           		 <i class="fab fa-html5"></i>
+          		</li>
+          		<li class="list-inline-item">
+           		 <i class="fab fa-css3-alt"></i>
+         		 </li>
+         		 <li class="list-inline-item">
+          		  <i class="fab fa-js-square"></i>
+         		 </li>
+         		 <li class="list-inline-item">
+          		  <i class="fab fa-wordpress"></i>
+         		 </li>
+       			 </ul>
+					</div>
+				<div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+				<div class="mb-3">Project Management Tools</div>
+        		<ul class="fa-ul mb-0">
+         		 <li>
+        		    <i class="fa-li fa fa-check"></i>XTRF</li>
+          		<li>
+            		<i class="fa-li fa fa-check"></i>ProjectLibre</li>
+          		<li>
+            		<i class="fa-li fa fa-check"></i>Xbench</li>
+        		</ul>
+				</div>
+
+                <div class="overflow-hidden mt-5 pt-3 border-top border-300" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                  <h2 id="awards">Awards &amp; Certifications</h2>
+                </div>
+					<div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+						<ul>
+							<li>Financial Team All Star, Donnelley Financial Solutions, 2017</li>
+							<li>Merit Scholarship, Middlebury Institute, 2014 - 2016</li>
+							<li>Dean’s Certificate for Academic Achievement, The Chinese University of Hong Kong, 2011 &amp; 2013</li>
+							<li>Dr. Ho Tim Memorial Scholarships, United College, CUHK, 2010 - 2014</li>
+							<li>Academic Performance Award, Translation Department, CUHK, 2013</li>
+						</ul>
+					</div>
+					
+					
+					
+					
+				</section>
 				  
 				  
-                <div class="overflow-hidden mt-5" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                  <h2 id="research">Research</h2>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-xl-10">
-                    <div class="overflow-hidden">
-                      <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Ph.D. Thesis (2014 – Present)</h3>
-                      <p data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">“The trigger and consequences of calcium influx during <em>Drosophila</em> egg activation”</p>
-                      <p data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Advisor: <a href="https://mbg.cornell.edu/people/mariana-wolfner/" target="_blank">Dr. Mariana Wolfner</a>, Cornell University</p>
-                      <div class="row">
-                        <div class="col-md-6" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                          <ul>
-                            <li>Combined inhibitor test, germline RNAi and germline specific CRIPSR/Cas9 knockout to identify Trpm as the channel mediating calcium influx during <em>Drosophila</em> egg activation.</li>
-                          </ul>
-                        </div>
-                        <div class="col-md-6" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll">
-                          <figure class="figure text-center"> <img src="assets/img/trpm.jpg" class="img-fluid rounded" alt="The calcium wave during fruit fly egg activation">
-                            <figcaption class="figure-caption" data-zanim-xs='{"delay":0.3}'><em>A wave of calcium sweeping through an activating fruit fly egg, Kaneuchi et al., 2014</em></figcaption>
-                          </figure>
-                        </div>
-                      </div>
-                      <ul data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                        <li>Visualized calcium dynamics during egg activation, engineered genetic calcium sensor and tested them using confocal and light sheet microscopy.</li>
-                        <li>Developed and optimized a highly efficient CRISPR/Cas9 mediated germline specific knockout protocol for <em>Drosophila</em> (collaboration with <a href="https://mbg.cornell.edu/people/chun-han" target="_blank">Dr. Chun Han</a>).</li>
-                      </ul>
-                      <div class="row">
-                        <div class="col-md-6"  data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                          <ul>
-                            <li>Identified region specific pressure sensitivity of mature oocytes using microneedle manipulation and microfluidic chamber (collaboration with <a href="https://www.bme.cornell.edu/faculty-directory/jan-lammerding" target="_blank">Dr. Jan Lammerding</a> and <a href="https://www.ncat.edu/cost/research/phys/people/tung/index.html" target="_blank">Dr. Chih-kuan Tung</a>).</li>
-                          </ul>
-                        </div>
-                        <div class="col-md-6" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll">
-                          <figure class="figure text-center"> <img src="assets/img/microneedle.jpg" class="img-fluid rounded" alt="The calcium rise in fruit fly egg induced by microneedle">
-                            <figcaption class="figure-caption" data-zanim-xs='{"delay":0.3}'><em>A calcium rise in a fruit fly oocyte induced by a microneedle</em></figcaption>
-                          </figure>
-                        </div>
-                      </div>
-                      <ul data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                        <li>Discovered F-actin dynamic changes and its co-regulation with calcium during <em>Drosophila</em> egg activation (collaboration with <a href="https://www.zoo.cam.ac.uk/directory/dr-timothy-weil" target="_blank">Dr. Timothy Weil</a>).</li>
-                      </ul>
-                      <div class="row">
-                        <div class="col-md-6" data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                          <ul>
-                            <li>Investigated metal element level changes during <em>Drosophila</em> egg activation using X-Ray Fluorescence Microscopy at Argonne National Laboratory (collaboration with Drs. <a href="https://www.feinberg.northwestern.edu/sites/obgyn/faculty/profile.html?xid=26852" target="_blank">Francesca Duncan</a>, <a href="https://www.tgs.northwestern.edu/about/contact/bios/teresa-woodruff.html" target="_blank">Teresa Woodruff</a> and <a href="https://www.chemistry.northwestern.edu/people/core-faculty/profiles/thomas-ohalloran.html" target="_blank">Thomas O’Halloran</a>).</li>
-                          </ul>
-                        </div>
-                        <div class="col-md-6" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll">
-                          <figure class="figure text-center"> <img src="assets/img/xfm.jpg" class="img-fluid rounded" alt="X-ray fluorescence microscopy image showing zinc distribution in fruit fly oocyte">
-                            <figcaption class="figure-caption" data-zanim-xs='{"delay":0.3}'><em>X-ray fluorescence microscopy image showing zinc distribution in fruit fly oocyte</em></figcaption>
-                          </figure>
-                        </div>
-                      </div>
-                      <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">B.S. Thesis (2013 – 2014)</h3>
-                      <p data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">“Purification and activity analysis of hydroxylase domain of JBP1, a DNA binding protein”</p>
-                      <p data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Advisor: <a href="http://www.cls.edu.cn/english/PrincipalInvestigator/pi/index1608.shtml" target="_blank">Dr. Chengqi Yi</a>, Peking University</p>
-                      <ul data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                        <li>Constructed seven truncated protein constructs of JBP1 catalytical domain</li>
-                        <li>Attempted various methods for the purification of insoluble proteins</li>
-                        <li>Successfully purified two target protein with MBP fusion protein tag and analyzed their activity with HPLC</li>
-                      </ul>
-                      <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Summer Research Internship (2013)</h3>
-                      <p data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">“Study on the phosphorylation of TFEB by MAP4K3 in nutrient deprivation induced autophagy”</p>
-                      <p data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Advisor: <a href="https://medschool.ucsd.edu/education/neurograd/faculty/Pages/albert-spada.aspx" target="_blank">Dr. Albert La Spada</a>, University of California, San Diego</p>
-                      <ul data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                        <li>Optimized several immunocytochemistry protocols for TFEB and lysosome visualization and co-localization using confocal microscopy</li>
-                        <li>Analyzed the effect of TFEB phosphorylation at serine 3 with phosphomimetic analysis</li>
-                        <li>Identified three potential proteins that may interact with MAP4K3 with co-IP assay</li>
-                      </ul>
-                      <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Publications</h3>
-                      <ul data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                        <li><b>Qinan Hu</b>, Mariana F. Wolfner. “<em>Drosophila</em> Trpm mediates calcium influx during egg activation” (PNAS, under review)</li>
-                        <li>Anna H. York-Andersen*, <b>Qinan Hu*</b>, Ben Wood, Mariana F. Wolfner, Timothy T. Weil. “A calcium mediated actin redistribution at egg activation in <em>Drosophila</em>” (Submitted) <b>*Equal contribution authors</b></li>
-                      </ul>
-                      <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Presentations</h3>
-                      <ul data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                        <li>Poster: “Dissecting the triggers of calcium wave during <em>Drosophila</em> egg activation”, Cornell/Pittsburgh Reproductive Genomics Symposium, 2018</li>
-                        <li>Poster: “Dissecting the triggers of calcium wave during <em>Drosophila</em> egg activation”, Gordon Research Conference for Fertilization and Activation of Development, 2017</li>
-                        <li>Poster: “Dissecting the mechanisms of calcium wave during <em>Drosophila</em> egg activation”, The Allied Genetics Conference, 2016</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="overflow-hidden mt-5" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                <h2 id="experience">Experience</h2>
-              </div>
-              <div class="row mt-4">
-                <div class="col-xl-10">
-                  <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Hornors</h3>
-                  <ul data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                    <li>George P. Hess Travel Award, Cornell University, 2019</li>
-                    <li>Mann Outstanding Graduate Student Award, finalists, Cornell University, 2019</li>
-                    <li>Graduate School Research Travel Grant, Cornell University, 2018</li>
-                    <li>Undergraduate Research Training Program, 2nd prize, Peking University, 2014</li>
-                  </ul>
-                  <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Mentoring</h3>
-                  <ul data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                    <li>Mentor of “Choose Development!” Undergraduate Summer Research Program, 2018.6 – 2018.9</li>
-                    <li>Graduate Teaching Assistant of BioMG2801 Genetics Lab course, 2016.1 – 2016.5</li>
-                  </ul>
-                  <h3 data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Professional Skill Development</h3>
-                  <ul data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                    <li>Mastering Software Development in R, a 5-course specialization by Johns Hopkins University on Coursera. <a href="https://www.coursera.org/account/accomplishments/specialization/75WGG7UMSK6Z" target="_blank">Specialization Certificate</a> earned on April 30, 2019 (Object-oriented programming, building and testing R packages, developing visualization tools).</li>
-                    <li>Introduction to Data Science in Python by University of Michigan on Coursera. <a href="https://www.coursera.org/account/accomplishments/verify/WZW4E7BPHR64" target="_blank">Certificate</a> earned on April 13, 2019 (Python programming, numpy, pandas).</li>
-                    <li>Data Science, a 10-course specialization by Johns Hopkins University on Coursera. <a href="https://www.coursera.org/account/accomplishments/specialization/43KBDWVWSCTB" target="_blank">Specialization Certificate</a> earned on January 11, 2019 (R programming, data analysis, regression model, markup language, practical machine learning, tidyverse, ggplot2).</li>
-                    <li>Machine Learning by Stanford University on Coursera. <a href="https://www.coursera.org/account/accomplishments/records/T7ABHEPL244Y" target="_blank">Certificate</a> earned on March 28, 2018.</li>
-                  </ul>
-                </div>
-              </div>
+				</div>
             </div>
             <div class="col-12 bg-200 py-7 my-6 text-center">
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="overflow-hidden">
-                    <p class="text-900 fs-2 text-sans-serif font-weight-light" data-zanim-xs='{"delay":0.1,"from":{"scale":1.1,"opacity":1},"to":{"scale":1,"opacity":1}}' data-zanim-trigger="scroll">&ldquo;If the 20th century was the century of physics, the 21st century will be the century of biology.&rdquo;</p>
-                  </div>
-                  <div class="overflow-hidden">
-                    <h5 class="fs-0 text-700 font-weight-bold mt-4" data-zanim-xs='{"delay":0.5}' data-zanim-trigger="scroll"><span class="text-black">&mdash; Craig Venter</span></h5>
+                    <p class="text-900 fs-2 text-sans-serif font-weight-light" data-zanim-xs='{"delay":0.1,"from":{"scale":1.1,"opacity":1},"to":{"scale":1,"opacity":1}}' data-zanim-trigger="scroll"></p>
                   </div>
                 </div>
               </div>
             </div>
+			  
             <div class="col-12 mt-6 pt-6 border-top border-300">
               <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                   <h2 id="contact">Get in touch</h2>
-                  <a href="mailto:qh78@cornell.edu" target="_blank" class="mr-2"><i class="fas fa-envelope fa-2x"></i></a> <a href="https://www.linkedin.com/in/qinanhu/" target="_blank" class="mr-2"><i class="fab fa-linkedin fa-2x"></i></a> <a href="https://github.com/perfectslumber" target="_blank" class="mr-2"> <i class="fab fa-github fa-2x"></i></a> <a href="https://www.facebook.com/qinanhu92" target="_blank"><i class="fab fa-facebook fa-2x"></i></a> </div>
+                  <a href="mailto:kexin.pei@Gmail.com" target="_blank" class="mr-2"><i class="fas fa-envelope fa-2x"></i></a> <a href="https://www.linkedin.com/in/kexinpei" target="_blank" class="mr-2"><i class="fab fa-linkedin fa-2x"></i></a> <a href="https://github.com/Isabelpei" target="_blank" class="mr-2"> <i class="fab fa-github fa-2x"></i></a></div>
               </div>
             </div>
           </div>
@@ -312,11 +415,9 @@
 <script src="assets/lib/owl.carousel/owl.carousel.js"></script> 
 <script src="assets/js/theme.js"></script> 
 <script src="assets/js/custom.js"></script> 
-<!--
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 <script>
-  AOS.init();
-</script>
--->
+  		AOS.init();
+	</script>
 </body>
 </html>
