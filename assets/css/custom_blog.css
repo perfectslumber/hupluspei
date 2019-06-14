@@ -13,6 +13,14 @@ html {
 	background-size: cover;
 }
 
+#wind_cover{
+	background-image:url(../img/wind_cover.jpg);
+}
+
+#sleep_cover{
+	background-image:url(../img/sleep_cover.jpg);
+}
+
 #spice_cover{
 	background-image:url(../img/spice_cover.jpg);
 }
