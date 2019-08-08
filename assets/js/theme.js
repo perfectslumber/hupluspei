@@ -2283,8 +2283,9 @@ spUtils.$document.ready(function () {
       return new Typed(value, {
         strings: $(value).data('typed-text'),
         typeSpeed: 100,
-        loop: true,
-        backDelay: 1500
+        loop: false,
+        backDelay: 1500,
+		showCursor:false
       });
     });
   }

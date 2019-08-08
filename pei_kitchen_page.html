@@ -1,201 +1,405 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ===============================================-->
+<!--    Document Title-->
+<!-- ===============================================-->
+<title>Kexin's Kitchen Gallery</title>
 
+<!-- ===============================================-->
+<!--    Favicons-->
+<!-- ===============================================-->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+<link rel="manifest" href="assets/img/favicons/manifest.json">
+<meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+<meta name="theme-color" content="#ffffff">
 
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
-    <title>Kexin's Kitchen Gallery</title>
+<!-- ===============================================-->
+<!--    Stylesheets-->
+<!-- ===============================================-->
+<link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
+<link href="assets/lib/remodal/remodal.css" rel="stylesheet">
+<link href="assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
+<link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+<link href="assets/lib/lightbox2/css/lightbox.css" rel="stylesheet">
+<link href="assets/css/theme.css" rel="stylesheet">
+<link href="assets/css/custom_peiKitchenGallery.css" rel="stylesheet">
+</head>
 
+<body class="has-sidemenu overflow-hidden-x">
 
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
-    <link href="assets/lib/remodal/remodal.css" rel="stylesheet">
-    <link href="assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
-    <link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/lib/lightbox2/css/lightbox.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet">
-
-  </head>
-
-
-  <body class="has-sidemenu overflow-hidden-x">
-
-
-    <!--===============================================-->
-    <!--    Fancynav-->
-    <!--===============================================-->
-    <nav class="fancynavbar" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-48},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
+<!--===============================================--> 
+<!--    Fancynav--> 
+<!--===============================================-->
+<nav class="fancynavbar" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-48},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
       data-zanim-trigger="scroll" data-exclusive="true">
-      <div class="fancynavbar-togglerbar bg-black">
-        <a class="fancynavbar-brand" href="index.html">
-          <img class="fancynavbar-brand-img" src="assets/img/logo-sparrow-invert.svg" alt="" width="30" height="30" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"
-          />
+  <div class="fancynavbar-togglerbar bg-black"> <a class="fancynavbar-brand" href="#top"> <img class="fancynavbar-brand-img" src="assets/img/logo.svg" alt="logo" width="50" height="50" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":-5},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"
+	  /></a>
+    <div class="fancynavbar-toggler">
+      <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
+        <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
+        <path id="path-middle" d="M20,32h30"></path>
+        <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
+      </svg>
+    </div>
+    <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"> </div>
+  </div>
+  <div class="fancynavbar-collapse">
+    <ul class="fancynavbar-nav">
+      <li class="fancynav-item"> <a class="fancynav-link" href="pei_kitchen.html"><span class="fancynav-link-content">Kexin's Kitchen</span></a> </li>
+      <li class="fancynav-item"> <a class="fancynav-link" href="index.html"><span class="fancynav-link-content">More About Us</span></a> </li>
+    </ul>
+  </div>
+</nav>
+<!--===============================================--> 
+<!--    End of Fancynav--> 
+<!--===============================================--> 
 
-          <!--You can use icon or text logo as well-->
-          <!--<span class='fab fa-superpowers fs-3'></span>-->
-          <!--<span class='logo-sparrow'>S</span>--></a>
-        <div class="fancynavbar-toggler">
-          <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
-            <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
-            <path id="path-middle" d="M20,32h30"></path>
-            <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
-          </svg>
-        </div>
-        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll">
-          <a class="fancynavbar-addon-item" href="#"><span class="fab fa-twitter"></span></a>
-          <a class="fancynavbar-addon-item" href="#" data-remodal-target="language"><span class="text-sans-serif ls font-weight-black fs--1">EN</span></a>
-        </div>
+<!-- ===============================================--> 
+<!--    Main Content--> 
+<!-- ===============================================-->
+<main class="main min-vh-100" id="top"> 
+  
+  <!-- ============================================--> 
+  <!-- Preloader ==================================-->
+  <div class="preloader" id="preloader">
+    <div class="loader">
+      <div class="line-scale-pulse-out-rapid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <div class="fancynavbar-collapse">
-        <ul class="fancynavbar-nav">
-          <li class="fancynav-item fancy-dropdown">
-            <a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">documentation</span></a>
-            <div class="fancy-dropdown-menu">
-              <div class="row pb-4 pt-3">
-                <div class="col-auto">
-                  <a class="fancy-dropdown-item" href="documentation/getting-started.html">Getting started</a>
-                  <a class="fancy-dropdown-item" href="documentation/file-structure.html">File structure</a>
-                  <a class="fancy-dropdown-item" href="documentation/customization.html">Customization</a>
-                  <a class="fancy-dropdown-item" href="documentation/gulp.html">Gulp</a>
-                  <a class="fancy-dropdown-item" href="documentation/RTL.html">RTL</a>
-                  <a class="fancy-dropdown-item" href="documentation/plugins.html">Plugins</a>
-                  <a class="fancy-dropdown-item" href="documentation/changelog.html">Changelog</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="fancynav-item">
-            <a class="fancynav-link" href="page-portfolio.html"><span class="fancynav-link-content">portfolio</span></a>
-          </li>
-          <li class="fancynav-item">
-            <a class="fancynav-link" href="index.html"><span class="fancynav-link-content">More About Us</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--===============================================-->
-    <!--    End of Fancynav-->
-    <!--===============================================-->
-
-
-
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
-    <main class="main min-vh-100" id="top">
-
-
-      <!-- ============================================-->
-      <!-- Preloader ==================================-->
-      <div class="preloader" id="preloader">
-        <div class="loader">
-          <div class="line-scale-pulse-out-rapid">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+    </div>
+  </div>
+  <!-- ============================================--> 
+  <!-- End of Preloader ===========================--> 
+  
+  <!-- ============================================--> 
+  <!-- <section> begin ============================-->
+  <section class="py-lg-7" id="page-portfolio">
+    <div class="container">
+      <div class="row mb-5 mb-lg-7">
+        <div class="col-lg-6">
+          <h1 class="text-underline d-inline fs-4 fs-md-5">Gallery</h1>
+          <p class="mt-3">一日三餐二人四季 + 一只即将加入餐桌的鼓励豆</p>
         </div>
       </div>
-      <!-- ============================================-->
-      <!-- End of Preloader ===========================-->
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-lg-7" id="page-portfolio">
-
-        <div class="container">
-          <div class="row mb-5 mb-lg-7">
-            <div class="col-lg-6">
-              <h1 class="text-underline d-inline fs-4 fs-md-5">Gallery</h1>
-              <p class="mt-3">一日三餐二人四季 + 一只即将加入餐桌的鼓励豆</p>
-            </div>
-          </div>
-          <div class="sortable min-vh-100" data-options='{"layoutMode":"packery"}'>
-            <div class="menu mb-2">
-              <div class="item active" data-filter="*">all</div>
-              <div class="item" data-filter=".dish">一箪食</div>
-              <div class="item" data-filter=".childhood">古早味</div>
-              <div class="item" data-filter=".dessert">糖不甩</div>
-              <div class="item" data-filter=".bread">酵母君</div>
-			  <div class="item" data-filter=".grain">加餐饭</div>
-			  <div class="item" data-filter=".drink">几分醺</div>
-            </div>
-			  
-            <div class="row no-gutters sortable-container sortable-container-gutter-fix" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+      <div class="sortable min-vh-100" data-options='{"layoutMode":"packery"}'>
+        <div class="menu mb-2">
+          <div class="item active" data-filter="*">all</div>
+          <div class="item" data-filter=".dish">一箪食</div>
+          <div class="item" data-filter=".childhood">古早味</div>
+          <div class="item" data-filter=".dessert">糖不甩</div>
+          <div class="item" data-filter=".bread">酵母君</div>
+          <div class="item" data-filter=".grain">加餐饭</div>
+          <div class="item" data-filter=".drink">几分醺</div>
+        </div>
+        
+        <!-- IMAGES -->
+        
+        <div class="row no-gutters sortable-container sortable-container-gutter-fix" data-zanim-timeline="{}" data-zanim-trigger="scroll"> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/5月5_抹茶樱花塔DSC01720.jpg" data-lightbox="1" data-title="Green Tea Sakura Jelly Tart</br>抹茶红豆樱花塔"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/5月5_抹茶樱花塔DSC01720.jpg" alt="Green Tea Sakura Jelly Tart by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/5月5_抹茶樱花塔DSC01732.jpg" data-lightbox="1" data-title="Green Tea Sakura Jelly Tart</br>抹茶红豆樱花塔"> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/5月5_抹茶樱花塔DSC01703.jpg" data-lightbox="1" data-title="Green Tea Sakura Jelly Tart</br>抹茶红豆樱花塔"> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/5月5_抹茶樱花塔DSC01741.jpg" data-lightbox="1" data-title="Green Tea Sakura Jelly Tart</br>抹茶红豆樱花塔"> </a> 
+		
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/8月2_柠檬凤爪DSC03018.jpg" data-lightbox="2" data-title="Lemon Chicken Feet</br>柠檬凤爪"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/8月2_柠檬凤爪DSC03018s.jpg" alt="Lemon chicken feet by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' /> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain childhood" href="assets/img/gallery/grain/6月23_黑米糕DSC02563.jpg" data-lightbox="3" data-title="Black Rice Cake</br>黑米糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/6月23_黑米糕DSC02563s.jpg" alt="Black Rice Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 grain childhood" href="assets/img/gallery/grain/6月23_黑米糕DSC02570.jpg" data-lightbox="3" data-title="Black Rice Cake</br>黑米糕"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood drink" href="assets/img/gallery/childhood/5月23_凉虾2.gif" data-lightbox="4" data-title="Ice Rice 'Shrimp'</br>凉虾"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/5月23_凉虾.gif" alt="Ice Rice 'Shrimp' by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 childhood drink" href="assets/img/gallery/childhood/5月23_凉虾.gif" data-lightbox="4" data-title="Ice Rice 'Shrimp'</br>凉虾"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/6月10_纯奶手撕吐司IMG_7421.jpg" data-lightbox="5" data-title="Milk Bread</br>纯奶手撕吐司"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/6月10_纯奶手撕吐司IMG_7421s.jpg" alt="Milk Bread by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.5}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/6月10_纯奶手撕吐司IMG_7428.jpg" data-lightbox="5" data-title="Milk Bread</br>纯奶手撕吐司"> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/6月10_纯奶手撕吐司IMG_7416.jpg" data-lightbox="5" data-title="Milk Bread</br>纯奶手撕吐司"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/6月10_荷花酥4.jpg" data-lightbox="6" data-title="Lotus Pastry</br>荷花酥"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/6月10_荷花酥s.jpg" alt="Lotus Pastry by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/6月10_荷花酥.jpg" data-lightbox="6" data-title="Lotus Pastry</br>荷花酥"> </a>
+			
+		<!-- Boostrap Carousel -->
+		<div class="col-6 col-md-3 sortable-item p-2 childhood dessert">
+			<div id="PineappleShortcake" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#PineappleShortcake" data-slide-to="0" class="active"></li>
+    		<li data-target="#PineappleShortcake" data-slide-to="1"></li>
+    		<li data-target="#PineappleShortcake" data-slide-to="2"></li>
+  		</ol>
+  		<!-- Wrapper for slides -->
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      		<img class="d-block w-100" src="assets/img/gallery/childhood/3月18_凤梨酥1.jpg" alt="Pineapple Shortcake by Kexin">
+    		</div>
+    		<div class="carousel-item">
+      		<img class="d-block w-100" src="assets/img/gallery/childhood/3月18_凤梨酥2.jpg" alt="Pineapple Shortcake by Kexin">
+    		</div>
+			<div class="carousel-item">
+      		<img class="d-block w-100" src="assets/img/gallery/childhood/3月18_凤梨酥3.jpg" alt="Pineapple Shortcake by Kexin">
+    		</div>
+  		</div>
+ 		<!-- Left and right controls -->
+  		<a class="carousel-control-prev" href="#PineappleShortcake" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#PineappleShortcake" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+ 		</a>
+			</div>	
+		</div>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月30_尖椒茄子饼IMG_7473.jpg" data-lightbox="70" data-title="Pepper Eggplant Pie</br>尖椒茄子饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/6月30_尖椒茄子饼IMG_7473.jpg" alt="Pepper Eggplant Pie by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月30_尖椒茄子饼IMG_7494.jpg" data-lightbox="70" data-title="Pepper Eggplant Pie</br>尖椒茄子饼"></a>	
+          
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/7月6_冰淇淋IMG_7536.jpg" data-lightbox="7" data-title="Icecream (Milk, Green Tea, Lemon, Coffee, Chocolate</br>冰淇淋（牛奶，抹茶，柠檬，咖啡，巧克力口味）"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/7月6_冰淇淋IMG_7536.jpg" alt="Milk, Green Tea, Coffee, Lemon, Chocolate Ice Cream by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/7月8_冰淇淋.jpg" data-lightbox="7" data-title="Icecream (Black Sesame, Peach)</br>冰淇淋（黑芝麻，桃子口味）"></a>
+	
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/5月30_卤牛肉5.jpg" data-lightbox="8" data-title="Braised Beef Shank</br>卤牛肉"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/5月30_卤牛肉5.jpg" alt="Braised Beef Shank by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/5月30_卤牛肉3.jpg" data-lightbox="8" data-title="Braised Beef Shank</br>卤牛肉"> </a> 
+		
 				
-              <div class="col-6 col-md-3 sortable-item p-2 dessert">
-                <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in"}'>
-                  <img class="w-100" src="assets/img/gallery/dessert_抹茶樱花塔.jpg" alt="Green Tea Sakura Jelly Tart by Kexin" />
-				<!--
-                  <div class="hoverbox-content bg-dark d-flex align-items-center justify-content-center text-center">
-                    <div class="px-4">
-                      <h5 class="text-white">Next gen web interface design</h5>
-                      <a class="btn btn-outline-light btn-xs mt-3" href="page-casestudy.html">learn more</a>
-                    </div>
-                  </div>
-					-->
-                </div>
-              </div>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish_青口.jpg" data-lightbox="image" data-title="my caption">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish_青口s.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' />
-              </a>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish_柠檬凤爪.jpg" data-lightbox="image" data-title="my caption">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish_柠檬凤爪s.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.7}' />
-              </a>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood_荷花酥.jpg" data-lightbox="image" data-title="my caption">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood_荷花酥s.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' />
-              </a>
-				
-              <div class="col-6 col-md-3 sortable-item p-2 childhood dessert">
-                <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in","delay":0.2}'>
-                  <img class="w-100 fit-cover" src="assets/img/gallery/dessert_凤梨酥s.jpg" alt="" />
-				<!--
-                  <div class="hoverbox-content bg-dark d-flex align-items-center justify-content-center text-center">
-                    <div class="px-4">
-                      <h5 class="text-white">Next gen web interface design</h5>
-                      <a class="btn btn-outline-light btn-xs mt-3" href="page-casestudy.html">learn more</a>
-                    </div>
-                  </div>
-					-->
-                </div>
-              </div>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread_麻薯夹心可可（抹茶）软欧.jpg" data-lightbox="image" data-title="my caption">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread_麻薯夹心可可（抹茶）软欧.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' />
-              </a>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 dish childhood grain" href="assets/img/gallery/dish_春饼.jpg" data-lightbox="image" data-title="my caption">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish_春饼s.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.5}' />
-              </a>
-				
-			<!-- HOW TO ADD A VIDEO
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/4月22_肉夹馍DSC01593.jpg" data-lightbox="49" data-title="Chinese Stewed Pork Burger</br>肉夹馍"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/4月22_肉夹馍DSC01593.jpg" alt="Chinese Stewed Pork Burger by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/4月22_肉夹馍DSC01574.jpg" data-lightbox="49" data-title="Chinese Stewed Pork Burger</br>肉夹馍"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink/6月30_黑糖珍珠鲜奶1.jpg" data-lightbox="9" data-title="Brown Sugar Milk Tea with Bubbles</br>黑糖珍珠鲜奶"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/drink/6月30_黑糖珍珠鲜奶1.jpg" alt="Brown Sugar Milk Tea with Bubbles by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/8月15_月牙饺子.jpg" data-lightbox="10" data-title="Crescent-shape Dumplings with beef and mushroom filling</br>月牙饺子"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/8月15_月牙饺子1.jpg" alt="Crescent-shape Dumplings with beef and mushroom filling by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/8月15_月牙饺子1.jpg" data-lightbox="10" data-title="Crescent-shape Dumplings with beef and mushroom filling</br>月牙饺子"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/5月14_雪顶草莓奶露软欧IMG_7050.jpg" data-lightbox="11" data-title="Dragon Fruit Bread with Mascarpone Cream Filling</br>雪顶草莓奶露软欧"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/5月14_雪顶草莓奶露软欧IMG_7067s.jpg" alt="Dragon Fruit Bread with Mascarpone Cream Filling by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/5月14_雪顶草莓奶露软欧IMG_7067.jpg" data-lightbox="11" data-title="Dragon Fruit Bread with Mascarpone Cream Filling</br>雪顶草莓奶露软欧"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/2月21_莲花酥IMG_6667-2.jpg" data-lightbox="12" data-title="Peach Blossom</br>桃莲花酥"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/2月21_莲花酥IMG_6667-2s.jpg" alt="Peach Blossom Pastry by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/2月21_莲花酥IMG_6664-2.jpg" data-lightbox="12" data-title="Peach Blossom</br>桃莲花酥"> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/2月21_莲花酥IMG_6670.jpg" data-lightbox="12" data-title="Peach Blossom</br>桃莲花酥"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/5月24_罗马盾牌.jpg" data-lightbox="13" data-title="Roman Shield Cookies</br>罗马盾牌"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/5月24_罗马盾牌.jpg" alt="Roman Shield Cookies by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/5月24_罗马盾牌1.jpg" data-lightbox="13" data-title="Roman Shield Cookies</br>罗马盾牌"></a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish childhood" href="assets/img/gallery/dish/拨面.gif" data-lightbox="14" data-title="Beef Noodle Soup</br>牛肉拉面"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/拨面.gif" alt="Beef Noodle Soup by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dish childhood" href="assets/img/gallery/dish/撒葱花1.gif" data-lightbox="14" data-title="Beef Noodle Soup</br>牛肉拉面"></a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dish childhood" href="assets/img/gallery/dish/牛肉面_滴油1.jpg" data-lightbox="14" data-title="Beef Noodle Soup</br>牛肉拉面"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/牛肉面_滴油1.jpg" alt="Beef Noodle Soup by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 dish childhood" href="assets/img/gallery/dish/牛肉面1.jpg" data-lightbox="14" data-title="Beef Noodle Soup</br>牛肉拉面"></a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink/8月12_matcha dirtyDSC03104.jpg" data-lightbox="15" data-title="Matcha Dirty"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/drink/8月12_matcha dirtyDSC03114s.jpg" alt="Matcha Dirty by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a> 
+		<a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink/8月5_Matcha dirty.jpg" data-lightbox="15" data-title="Matcha Dirty"></a>
+		<a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink/8月12_matcha dirtyDSC03114.jpg" data-lightbox="15" data-title="Matcha Dirty"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月26_牛肉大葱千层馅饼DSC02642.jpg" data-lightbox="16" data-title="Crispy Multi Layer Beef Pie</br>牛肉大葱千层馅饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/6月26_牛肉大葱千层馅饼DSC02649s.jpg" alt="Crispy Multi Layer Beef Pie by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月26_牛肉大葱千层馅饼DSC02649.jpg" data-lightbox="16" data-title="Crispy Multi Layer Beef Pie</br>牛肉大葱千层馅饼"></a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/5月27_椰蓉四叶草面包IMG_7230.jpg" data-lightbox="17" data-title="Spinach Coconut Clover Bread</br>椰蓉四叶草面包"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/5月27_椰蓉四叶草面包IMG_7230.jpg" alt="Spinach Coconut Clover Bread by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood grain" href="assets/img/gallery/childhood/6月25_春饼DSC02616.jpg" data-lightbox="18" data-title="Spring Pancake</br>春饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/6月25_春饼DSC02616.jpg" alt="Spring Pancake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood grain" href="assets/img/gallery/childhood/6月25_春饼DSC02625.jpg" data-lightbox="18" data-title="Spring Pancake</br>春饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/6月25_春饼DSC02633.jpg" alt="Spring Pancake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood grain" href="assets/img/gallery/childhood/6月25_春饼DSC02633.jpg" data-lightbox="18" data-title="Spring Pancake</br>春饼"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/8月24_法式草莓蛋糕DSC03209.jpg" data-lightbox="19" data-title="Fraisier</br>法式草莓蛋糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/8月24_法式草莓蛋糕DSC03227s.jpg" alt="Fraisier by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/8月24_法式草莓蛋糕DSC03225.jpg" data-lightbox="19" data-title="Fraisier</br>法式草莓蛋糕"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月3_青口.jpg" data-lightbox="20" data-title="Mussels Mariniere</br>白葡萄酒炖青口"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/6月3_青口.jpg" alt="Mussels Mariniere by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/7月7_葱油饼DSC02772(scallion pancake).jpg" data-lightbox="21" data-title="Scallion Pancake</br>葱油饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/7月7_葱油饼DSC02772(scallion pancake).jpg" alt="Scallion Pancake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/3月13_牛舌饼动图2.gif" data-lightbox="27" data-title="'Ox-tongue' Cake (Spiced Salt Black Seasame Pastry) (</br>椒盐牛舌饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/3月13_牛舌饼动图2.gif" alt="'Ox-tongue' Cake (Spiced Salt Black Seasame Pastry) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 childhood drink" href="assets/img/gallery/childhood/5月14_冰粉.jpg" data-lightbox="23" data-title="Brown Sugar Ice Jelly with Haw Flakes and Cold 'Srhimp'</br>红糖凉虾山楂冰粉"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/5月14_冰粉s.jpg" alt="Brown Sugar Ice Jelly with Haw Flakes and Cold 'Srhimp' by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/5月25_小馄饨IMG_7165.jpg" data-lightbox="24" data-title="Wonton</br>小馄饨"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/5月25_小馄饨IMG_7165.jpg" alt="Wonton by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/5月25_小馄饨IMG_7152.jpg" data-lightbox="24" data-title="Wonton</br>小馄饨"> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/4月15_枣糕1.jpg" data-lightbox="25" data-title="Jujube Cake</br>枣糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/4月15_枣糕1.jpg" alt="Jujube Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/4月15_枣糕.jpg" data-lightbox="25" data-title="Jujube Cake</br>枣糕"></a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/6月25_红酒桂圆全麦软欧.jpg" data-lightbox="26" data-title="Red Wine Longan Bread</br>红酒桂圆全麦软欧"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/6月25_红酒桂圆全麦软欧.jpg" alt="Red Wine Longan Bread by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月25_猕猴桃卷（亮调）.jpg" data-lightbox="22" data-title="Kiwi Cake Roll</br>猕猴桃卷"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/3月25_猕猴桃卷（亮调）s.jpg" alt="Kiwi Cake Roll by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月25_猕猴桃卷（暗调）.jpg" data-lightbox="22" data-title="Kiwi Cake Roll</br>猕猴桃卷"></a>
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月25_猕猴桃卷（暗调2）.jpg" data-lightbox="22" data-title="Kiwi Cake Roll</br>猕猴桃卷"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/7月28_双重巧克力棋格蛋糕DSC02989.jpg" data-lightbox="28" data-title="Double Chocolate Checkerboard Cake</br>双重巧克力棋格蛋糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/7月28_双重巧克力棋格蛋糕DSC02989s.jpg" alt="Double Chocolate Checkerboard Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+					
+		<a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink/5月27_多芒小丸子IMG_7193.jpg" data-lightbox="29" data-title="Mochi Mango Delight</br>多芒小丸子"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/drink/5月27_多芒小丸子IMG_7193.jpg" alt="Mochi Mango Delight by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+					
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/3月13_牛舌饼2.jpg" data-lightbox="27" data-title="'Ox-tongue' Cake (Spiced Salt Black Seasame Pastry) (</br>椒盐牛舌饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/3月13_牛舌饼2.jpg" alt="'Ox-tongue' Cake (Spiced Salt Black Seasame Pastry) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月10_叉烧包.jpg" data-lightbox="30" data-title="Cha Sui Bao (Chinese Pork Bun)</br>叉烧包"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/6月10_叉烧包s.jpg" alt="Cha Sui Bao (Chinese Pork Bun) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月10_叉烧包1.jpg" data-lightbox="30" data-title="Cha Sui Bao (Chinese Pork Bun)</br>叉烧包"></a>
+			
+		<!-- Boostrap Carousel -->
+		<div class="col-6 col-md-3 sortable-item p-2 dessert">
+			<div id="Waffle" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#Waffle" data-slide-to="0" class="active"></li>
+    		<li data-target="#Waffle" data-slide-to="1"></li>
+    		<li data-target="#Waffle" data-slide-to="2"></li>
+  		</ol>
+  		<!-- Wrapper for slides -->
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      		<img class="d-block w-100" src="assets/img/gallery/dessert/3月31_3月25_夹心华夫.jpg" alt="Chocolate Waffle by Kexin">
+    		</div>
+    		<div class="carousel-item">
+      		<img class="d-block w-100" src="assets/img/gallery/dessert/3月31_3月25_夹心华夫1.jpg" alt="Pineapple Jam Waffle by Kexin">
+    		</div>
+			<div class="carousel-item">
+      		<img class="d-block w-100" src="assets/img/gallery/dessert/3月31_3月25_夹心华夫2.jpg" alt="Pineapple Jam Waffle by Kexin">
+    		</div>
+  		</div>
+ 		<!-- Left and right controls -->
+  		<a class="carousel-control-prev" href="#Waffle" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#Waffle" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+ 		</a>
+			</div>	
+		</div>		
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月21_珍珠丸子DSC02540.jpg" data-lightbox="31" data-title="Pearl Rice Meatballs</br>珍珠丸子"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/6月21_珍珠丸子DSC02540.jpg" alt="Pearl Rice Meatballs by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月21_珍珠丸子DSC02522.jpg" data-lightbox="31" data-title="Pearl Rice Meatballs</br>珍珠丸子"></a>
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月21_珍珠丸子DSC02535.jpg" data-lightbox="31" data-title="Pearl Rice Meatballs</br>珍珠丸子"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/4月8_年糕红豆汤.jpg" data-lightbox="32" data-title="Red Bean Soup with Roasted Rice Cake</br>年糕红豆汤"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/4月8_年糕红豆汤.jpg" alt="Red Bean Soup with Roasted Rice Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/3月18_凤梨酥4.jpg" data-lightbox="33" data-title="Pineapple Shortcake</br>凤梨酥"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/3月18_凤梨酥4s.jpg" alt="Pineapple Shortcake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/3月18_凤梨酥6.jpg" data-lightbox="33" data-title="Pineapple Shortcake</br>凤梨酥"></a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood dessert" href="assets/img/gallery/childhood/3月18_凤梨酥7.jpg" data-lightbox="33" data-title="Pineapple Shortcake</br>凤梨酥"></a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/7月18_蛋黄燕麦南瓜糊.jpg" data-lightbox="34" data-title="Oatmeal Pumpkin Congee</br>蛋黄燕麦南瓜糊"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/7月18_蛋黄燕麦南瓜糊.jpg" alt="Oatmeal Pumpkin Congee by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/7月1_魔法蛋糕.jpg" data-lightbox="35" data-title="Magic Cake</br>魔法蛋糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/7月1_魔法蛋糕.jpg" alt="Magic Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/3月25_清炖狮子头.jpg" data-lightbox="36" data-title="'Lion's Head'(Stewed Meatball)</br>清炖狮子头"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/3月25_清炖狮子头s.jpg" alt="'Lion's Head'(Stewed Meatball) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/4月26_韭菜盒子.jpg" data-lightbox="37" data-title="Fried Chive Pockets</br>韭菜盒子"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/4月26_韭菜盒子s.jpg" alt="Fried Chive Pockets by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/4月26_韭菜盒子1.jpg" data-lightbox="37" data-title="Fried Chive Pockets</br>韭菜盒子"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/7月30_蛋清鲜奶超绵吐司DSC03005.jpg" data-lightbox="38" data-title="Egg White Milk Bread</br>蛋清鲜奶超绵吐司"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/7月30_蛋清鲜奶超绵吐司DSC03005s.jpg" alt="Egg White Milk Bread by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/5月29_三杯排骨.jpg" data-lightbox="41" data-title="Three-cup Ribs</br>三杯排骨"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/5月29_三杯排骨s.jpg" alt="Three-cup Ribs by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>	
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/8月19_蛋挞1.jpg" data-lightbox="39" data-title="Egg Tart</br>蛋挞"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/8月19_蛋挞1s.jpg" alt="Egg Tart by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/8月5_北非蛋.jpg" data-lightbox="40" data-title="Shakshouka</br>北非蛋"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/8月5_北非蛋1.jpg" alt="Shakshouka by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/8月5_北非蛋1.jpg" data-lightbox="40" data-title="Shakshouka</br>北非蛋"></a>
+			
+		<!-- Boostrap Carousel -->
+		<div class="col-6 col-md-3 sortable-item p-2 grain">
+			<div id="Baozi" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#Baozi" data-slide-to="0" class="active"></li>
+    		<li data-target="#Baozi" data-slide-to="1"></li>
+    		<li data-target="#Baozi" data-slide-to="2"></li>
+  		</ol>
+  		<!-- Wrapper for slides -->
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      		<img class="d-block w-100" src="assets/img/gallery/grain/4月8_萝卜丝包子_蒸汽4.jpg" alt="Turnip Bao by Kexin">
+    		</div>
+    		<div class="carousel-item">
+      		<img class="d-block w-100" src="assets/img/gallery/grain/7月1_青椒腐竹包子DSC02742.jpg" alt="Pepper and Tofu Skik Bao by Kexin">
+    		</div>
+			<div class="carousel-item">
+      		<img class="d-block w-100" src="assets/img/gallery/grain/7月1_青椒腐竹包子DSC02728.jpg" alt="Pepper and Tofu Skin Bao by Kexin">
+    		</div>
+  		</div>
+ 		<!-- Left and right controls -->
+  		<a class="carousel-control-prev" href="#Baozi" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#Baozi" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+ 		</a>
+			</div>	
+		</div>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/3月18_顶顶糕1.jpg" data-lightbox="42" data-title="Dingding Cake (Steamed Rice Cake)</br>顶顶糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/3月18_顶顶糕1s.jpg" alt="Dingding Cake (Steamed Rice Cake) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/3月18_顶顶糕3.jpg" data-lightbox="42" data-title="Dingding Cake (Steamed Rice Cake)</br>顶顶糕"> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月25_大黄草莓dutch baby.jpg" data-lightbox="43" data-title="Strawberry Rhubarb Dutch Baby</br>草莓大黄荷兰宝贝松饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/3月25_大黄草莓dutch baby.jpg" alt="Strawberry Rhubarb Dutch Baby by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月25_早餐1.jpg" data-lightbox="43" data-title="Strawberry Rhubarb Dutch Baby</br>草莓大黄荷兰宝贝松饼"></a>
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月25_大黄.jpg" data-lightbox="43" data-title="Strawberry Rhubarb Dutch Baby</br>草莓大黄荷兰宝贝松饼"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月10_烤叉烧.jpg" data-lightbox="44" data-title="Char Siu</br>烤叉烧"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/6月10_烤叉烧s.jpg" alt="Char Siu by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月10_烤叉烧2.jpg" data-lightbox="44" data-title="Char Siu</br>烤叉烧"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/5月27_黄豆粉面包.jpg" data-lightbox="45" data-title="Roasted Soy Flour Bread</br>黄豆粉小餐包"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/5月27_黄豆粉面包s.jpg" alt="Roasted Soy Flour Bread by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月18_卤肉饭DSC02498.jpg" data-lightbox="46" data-title="Minced Pork Rice</br>卤肉饭"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/6月18_卤肉饭DSC02498s.jpg" alt="Minced Pork Rice by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/7月27_可可海绵蛋糕（不易消泡的日式方法）DSC02955.jpg" data-lightbox="47" data-title="Chocolate Sponge Cake</br>日式可可海绵蛋糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/7月27_可可海绵蛋糕（不易消泡的日式方法）DSC02955s.jpg" alt="Chocolate Sponge Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/6月9_日式炸鸡IMG_7362-2.jpg" data-lightbox="48" data-title="Karaage (Japanese Fried Chicken)</br>日式炸鸡饭"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/6月9_日式炸鸡IMG_7350-2.jpg" alt="Karaage (Japanese Fried Chicken) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/8月27_夏日煎茄饼.jpg" data-lightbox="50" data-title="Fried Eggplant</br>夏日煎茄饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/8月27_夏日煎茄饼s.jpg" alt="Fried Eggplant by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/6月3_肉松蛋糕卷.jpg" data-lightbox="51" data-title="Pork Floss Cake Roll</br>肉松蛋糕卷"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/6月3_肉松蛋糕卷s.jpg" alt="Pork Floss Cake Roll by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/8月12_麻薯夹心可可（抹茶）软欧8月12_麻薯软欧DSC03144.jpg" data-lightbox="52" data-title="Mochi Red Bean Bread</br>麻薯夹心抹茶软欧"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/8月12_麻薯夹心可可（抹茶）软欧8月12_麻薯软欧DSC03144.jpg" alt="Mochi Red Bean Bread by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月18_香蕉巧克力蛋糕.jpg" data-lightbox="53" data-title="Chocolate Banana Cake</br>香蕉巧克力蛋糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/3月18_香蕉巧克力蛋糕s.jpg" alt="hocolate Banana Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/1月1_金桂银芽.jpg" data-lightbox="54" data-title="Stir-fried mung bean sprouts and egg with dried scallop</br>金桂银芽"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/1月1_金桂银芽s.jpg" alt="Stir-fried mung bean sprouts and egg with dried scallop by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/6月21_苹果核桃软糕.jpg" data-lightbox="55" data-title="Almond Flour Apple and Walnut Cake</br>苹果核桃软糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/6月21_苹果核桃软糕s.jpg" alt="Almond Flour Apple and Walnut Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/5月29_黑蒜子牛肉粒IMG_7258-2.jpg" data-lightbox="56" data-title="Garlic Beef</br>黑蒜子牛柳粒"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/5月29_黑蒜子牛肉粒IMG_7258-2s.jpg" alt="Garlic Beef by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/5月30_三鲜豆皮.jpg" data-lightbox="57" data-title="Tri-delicacy doupi</br>三鲜豆皮"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/5月30_三鲜豆皮s.jpg" alt="Tri-delicacy doupi by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/5月30_三鲜豆皮1.jpg" data-lightbox="57" data-title="Tri-delicacy doupi</br>三鲜豆皮"></a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/7月4_黄焖鸡米饭.jpg" data-lightbox="58" data-title="Braised Chicken Rice</br>黄焖鸡米饭"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/7月4_黄焖鸡米饭.jpg" alt="Braised Chicken Rice by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/8月19_日式橙汁云朵蛋糕.jpg" data-lightbox="59" data-title="Fluffy Orange Chiffon Cake</br>日式橙汁云朵蛋糕"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/8月19_日式橙汁云朵蛋糕.jpg" alt="Orange Chiffon Cake (Cooked dough method) by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/7月13_古巴牛肉饭.jpg" data-lightbox="60" data-title="Ground Beef Bowl</br>古巴牛肉煎蛋饭"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/7月13_古巴牛肉饭s.jpg" alt="Ground Beef Bowl by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 bread" href="assets/img/gallery/bread/10月22_伯爵杏仁乳酪卷.jpg" data-lightbox="61" data-title="Earl Grey Tea Bread with Almond Cream Cheese Filling</br>伯爵杏仁乳酪卷"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/bread/10月22_伯爵杏仁乳酪卷s.jpg" alt="Earl Grey Tea Bread with Almond Cream Cheese Filling by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 childhood drink" href="assets/img/gallery/childhood/DSC01790-9.jpg" data-lightbox="4" data-title="Ice Rice 'Shrimp'</br>凉虾"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/DSC01790-9.jpg" alt="Ice Rice 'Shrimp' by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' /></a> 
+		<a class="col-6 col-md-3 sortable-item p-2 childhood drink" href="assets/img/gallery/childhood/DSC01828-18.jpg" data-lightbox="4" data-title="Ice Rice 'Shrimp'</br>凉虾"> </a> 
+			
+		<a class="col-6 col-md-3 sortable-item p-2 grain" href="assets/img/gallery/grain/6月10_鸡蛋葱饼.jpg" data-lightbox="62" data-title="Scallion Egg Pancake</br>鸡蛋葱饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/grain/6月10_鸡蛋葱饼s.jpg" alt="Scallion Egg Pancake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+	
+		<a class="col-6 col-md-3 sortable-item p-2 childhood" href="assets/img/gallery/childhood/10月22_传统港式黑芝麻糊IMG_6408.jpg" data-lightbox="63" data-title="Black Sesame Sweet Soup</br>传统港式黑芝麻糊"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/childhood/10月22_传统港式黑芝麻糊IMG_6408.jpg" alt="Black Sesame Sweet Soup by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/5月20_香辣牛尾IMG_7122.jpg" data-lightbox="64" data-title="Spicy Oxtail</br>香辣牛尾"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/5月20_香辣牛尾IMG_7122.jpg" alt="Spicy Oxtail by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/4月23_酸奶戚风.jpg" data-lightbox="65" data-title="Yogurt Chiffon Cake</br>酸奶戚风"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/4月23_酸奶戚风s.jpg" alt="Yogurt Chiffon Cake by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink/6月3__百香果凤梨苏打水.jpg" data-lightbox="66" data-title="Passion Fruit and Pineapple Soda</br>百香果凤梨苏打水"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/drink/6月3__百香果凤梨苏打水s.jpg" alt="Passion Fruit and Pineapple Soda by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月31_3月25_床照.jpg" data-lightbox="67" data-title="Lazy Sunday Morning Waffle</br>华夫饼"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/3月31_3月25_床照.jpg" alt="Lazy Sunday Morning Waffle by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/8月8_日式出汁汉堡DSC03077.jpg" data-lightbox="68" data-title="Japanese Hamburger Steak</br>日式出汁汉堡"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/8月8_日式出汁汉堡DSC03077s.jpg" alt="Japanese Hamburger Steak by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+					
+		<a class="col-6 col-md-3 sortable-item p-2 dish" href="assets/img/gallery/dish/7月13_红薯燕麦披萨饼底.jpg" data-lightbox="69" data-title="Oatmeal Yam Pizza</br>红薯燕麦披萨饼底"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish/7月13_红薯燕麦披萨饼底.jpg" alt="Oatmeal Yam Pizza by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+			
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月21_星空巧克力IMG_4217.jpg" data-lightbox="71" data-title="Galaxy Chocolate</br>星空巧克力"> <img class="rounded w-100 fit-cover" src="assets/img/gallery/dessert/3月21_星空巧克力IMG_4217.jpg" alt="Galaxy Chocolate by Kexin" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' /> </a>
+		<a class="col-6 col-md-3 sortable-item p-2 dessert" href="assets/img/gallery/dessert/3月21_星空巧克力IMG_7021.jpg" data-lightbox="71" data-title="Galaxy Chocolate</br>星空巧克力"></a>
+			
+          <!-- HOW TO ADD A VIDEO
               <div class="col-6 col-md-3 sortable-item p-2 illustration">
                 <div class="position-relative">
                   <img class="rounded w-100 fit-cover" src="assets/img/gallery/01.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.6}' />
@@ -219,45 +423,50 @@
                   </a>
                 </div>
               </div>
-				-->
-				
-              <div class="col-12 col-sm-6 sortable-item p-2 grain">
-                <div class="embed-responsive embed-responsive-4by3">
-                  <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white embed-responsive-item" data-options='{"items":1,"autoplay":false,"loop":true,"animateOut":"fadeOut","nav":true}' data-zanim-xs='{"animation":"zoom-in","delay":0.8}'>
-                    <img class="w-100 fit-cover rounded" src="assets/img/gallery/grain_尖椒茄子饼.jpg" alt="" />
-                    <img class="w-100 fit-cover rounded" src="assets/img/gallery/grain_叉烧包.jpg" alt="" />
+				--> 
+          
+          <!-- Hover over effect
+              <div class="col-6 col-md-3 sortable-item p-2 dessert">
+                <div class="hoverbox rounded overflow-hidden" data-zanim-xs='{"animation":"zoom-in"}'>
+                  <img class="w-100" src="assets/img/gallery/dessert/5月5_抹茶樱花塔DSC01720.jpg" alt="Green Tea Sakura Jelly Tart by Kexin" />
+                  <div class="hoverbox-content bg-dark d-flex align-items-center justify-content-center text-center">
+                    <div class="px-4">
+                      <h5 class="text-white">Next gen web interface design</h5>
+                      <a class="btn btn-outline-light btn-xs mt-3" href="page-casestudy.html">learn more</a>
+                    </div>
                   </div>
+				
                 </div>
               </div>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 drink" href="assets/img/gallery/drink_百香果凤梨苏打水.jpg" data-lightbox="image" data-title="my caption">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/drink_百香果凤梨苏打水s.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' />
-              </a>
-				
-              <a class="col-6 col-md-3 sortable-item p-2 photography" href="page-casestudy.html">
-                <img class="rounded w-100 fit-cover" src="assets/img/gallery/dish_日式炸鸡.jpg" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' />
-              </a>
+			  --> 
+			
+						
+		<!-- Theme Carousel 	
+		<div class="col-6 col-md-3 sortable-item p-2 grain">
+           <div class="embed-responsive embed-responsive-4by3">
+             <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white embed-responsive-item" data-options='{"items":1,"autoplay":true,"loop":true,"animateOut":"fadeOut","nav":true}' data-zanim-xs='{"animation":"zoom-in","delay":0.8}'> <img class="w-100 fit-cover rounded" src="assets/img/gallery/grain/6月30_尖椒茄子饼IMG_7473.jpg" alt="Pepper Eggplant Pie by Kexin" /> <img class="w-100 fit-cover rounded" src="assets/img/gallery/grain/6月30_尖椒茄子饼IMG_7494.jpg" alt="Pepper Eggplant Pie by Kexin" /> </div>
             </div>
           </div>
+		-->	
+          
         </div>
-        <!-- end of .container-->
+      </div>
+    </div>
+    
+    <!-- end of .container--> 
+    
+  </section>
+  <!-- <section> close ============================--> 
+  <!-- ============================================--> 
+  
+</main>
+<!-- ===============================================--> 
+<!--    End of Main Content--> 
+<!-- ===============================================--> 
 
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-    </main>
-    <!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
-
-
-
-
-    <!--===============================================-->
-    <!--    Footer-->
-    <!--===============================================-->
+<!--===============================================--> 
+<!--    Footer--> 
+<!--===============================================-->
 <footer class="footer bg-black text-600 py-4 text-sans-serif text-center overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
   <div class="container">
     <div class="row align-items-center">
@@ -269,47 +478,22 @@
   </div>
 </footer>
 
-
-    <!--===============================================-->
-    <!--    Modal for language selection-->
-    <!--===============================================-->
-    <div class="remodal bg-black remodal-select-language" data-remodal-id="language">
-      <div class="remodal-close" data-remodal-action="close"></div>
-      <ul class="list-unstyled pl-0 my-0 py-4 text-sans-serif">
-        <li>
-          <a class="pt-1 d-block text-white font-weight-semi-bold" href="#">English</a>
-        </li>
-        <li>
-          <a class="pt-1 d-block text-500" href="#">Français</a>
-        </li>
-        <li>
-          <a class="pt-1 d-block text-500" href="page-rtl.html">عربى</a>
-        </li>
-        <li>
-          <a class="pt-1 d-block text-500" href="#">Deutsche</a>
-        </li>
-      </ul>
-    </div>
-
-
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/lib/loaders.css/loaders.css.js"></script>
-    <script src="assets/js/stickyfill.min.js"></script>
-    <script src="assets/lib/remodal/remodal.js"></script>
-    <script src="assets/lib/jtap/jquery.tap.js"></script>
-    <script src="assets/js/rellax.min.js"></script>
-    <script src="assets/lib/owl.carousel/owl.carousel.js"></script>
-    <script src="assets/lib/lightbox2/js/lightbox.js"></script>
-    <script src="assets/lib/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-
-  </body>
-
+<!-- ===============================================--> 
+<!--    JavaScripts--> 
+<!-- ===============================================--> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/popper.min.js"></script> 
+<script src="assets/js/bootstrap.js"></script> 
+<script src="assets/js/plugins.js"></script> 
+<script src="assets/lib/loaders.css/loaders.css.js"></script> 
+<script src="assets/js/stickyfill.min.js"></script> 
+<script src="assets/lib/remodal/remodal.js"></script> 
+<script src="assets/lib/jtap/jquery.tap.js"></script> 
+<script src="assets/js/rellax.min.js"></script> 
+<script src="assets/lib/owl.carousel/owl.carousel.js"></script> 
+<script src="assets/lib/lightbox2/js/lightbox.js"></script> 
+<script src="assets/lib/isotope-layout/isotope.pkgd.min.js"></script> 
+<script src="assets/lib/isotope-packery/packery-mode.pkgd.min.js"></script> 
+<script src="assets/js/theme.js"></script>
+</body>
 </html>

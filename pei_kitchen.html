@@ -15,7 +15,7 @@
 <!-- ===============================================-->
 <!--    Favicons-->
 <!-- ===============================================-->
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.png">
@@ -36,6 +36,7 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link href="assets/css/theme.css" rel="stylesheet">
 <link href="assets/css/custom_peiKitchen.css" rel="stylesheet">
+<link href="assets/css/custom-fonts.css" rel="stylesheet">
 </head>
 
 <body class="has-sidemenu overflow-hidden-x">
@@ -45,11 +46,8 @@
 <!--===============================================-->
 <nav class="fancynavbar" data-zanim-lg="{'from':{'opacity':1,'x':70},'to':{'opacity':1,'x':0},'ease':'CubicBezier','duration':0.8,'delay':0.3}" data-zanim-xs="{'from':{'opacity':1,'y':-48},'to':{'opacity':1,'y':0},'ease':'CubicBezier','duration':0.8,'delay':0.3}"
       data-zanim-trigger="scroll" data-exclusive="true">
-  <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"> <a class="fancynavbar-brand" href=#top> <span class="logo-sparrow">H</span> 
-    
-    <!--You can use icon or text logo as well--> 
-    <!--<span class='fab fa-superpowers fs-3'></span>--> 
-    <!--<span class='logo-sparrow'>S</span>--></a>
+  <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="#top"> <img class="fancynavbar-brand-img" src="assets/img/logo.svg" alt="logo" width="50" height="50" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":-5},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"
+	  /></a> 
     <div class="fancynavbar-toggler">
       <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg="{'from':{'opacity':0,'x':45},'to':{'opacity':1,'x':0},'ease':'CubicBezier','duration':0.8,'delay':0.5}" data-zanim-trigger="scroll">
         <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
@@ -57,7 +55,7 @@
         <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
       </svg>
     </div>
-    <div class="fancynavbar-addon" data-zanim-lg="{'from':{'opacity':0,'x':45},'to':{'opacity':1,'x':0},'ease':'CubicBezier','duration':0.8,'delay':0.4}" data-zanim-trigger="scroll"> <a class="fancynavbar-addon-item" href="#" data-remodal-target="language"><span class="text-sans-serif ls font-weight-black fs--1">EN</span></a> </div>
+    <div class="fancynavbar-addon" data-zanim-lg="{'from':{'opacity':0,'x':45},'to':{'opacity':1,'x':0},'ease':'CubicBezier','duration':0.8,'delay':0.4}" data-zanim-trigger="scroll"></div>
   </div>
   <div class="fancynavbar-collapse">
     <ul class="fancynavbar-nav">
@@ -68,7 +66,7 @@
           </div>
         </div>
       </li>
-      <li class="fancynav-item"> <a class="fancynav-link" href="page-coming-soon.html" target="_blank"><span class="fancynav-link-content">Pages</span></a> </li>
+      <li class="fancynav-item"> <a class="fancynav-link" href="pei_kitchen_page.html" target="_blank"><span class="fancynav-link-content">Gallery</span></a> </li>
       <li class="fancynav-item"> <a class="fancynav-link" href="index.html"><span class="fancynav-link-content">More About Us</span></a> </li>
     </ul>
   </div>
@@ -124,11 +122,11 @@
       </div>
     </div>
     <div class="container z-index-1">
-      <div class="row vh-100 align-items-center justify-content-center py-10 text-center">
+      <div class="row vh-100 align-items-center justify-content-left py-10">
         <div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xl-5">
-          <div class="overflow-hidden">
-            <h1 class="fs-1 fs-sm-2" id="kitchentitle">愿世间一切<br/>
-              <span class="typed-text font-italic text-serif font-weight-light" data-typed-text='["都如美食般温暖人心."]'></span> </h1>
+          <div class="overflow-hidden" id="white-box">
+            <h1 class="fs-1 fs-sm-2 font-ss-kai text-sm-left pt-lg-4 pl-lg-4 pb-lg-4" id="kitchentitle">愿世间一切<br/>
+              <span class="typed-text font-ss-kai text-serif font-weight-light" data-typed-text='["都如美食般温暖人心."]'></span> </h1>
           </div>
         </div>
       </div>
@@ -141,7 +139,7 @@
     <div class="container">
       <div class="row section-heading justify-content-center mt-8 mb-5">
         <div class="col-md-8 text-center" data-aos="fade-up" data-aos-duration="1000">
-          <h2 class="heading mb-3">Find your best food</h2>
+          <h2 class="heading mb-3 headinglink"><a href="pei_kitchen_page.html" target="_blank" style="color: black;">Find your best food</a></h2>
         </div>
       </div>
       <div class="row">
@@ -151,7 +149,7 @@
             <div class="ftco-46-text ftco-46-arrow-left">
               <h4 class="ftco-46-subheading" id="category1">一箪食</h4>
               <h3 class="ftco-46-heading">鲜肉小馄饨</h3>
-              <p class="mb-5">随意杯盘虽草草。酒美梅酸，恰称人怀抱</p>
+              <p class="mb-5 font-hei">随意杯盘虽草草。酒美梅酸，恰称人怀抱</p>
               <p><a href="#" class="btn-link">Learn More <span class="ion-android-arrow-forward"></span></a></p>
             </div>
             <div class="ftco-46-image" id="img2"></div>
@@ -160,14 +158,14 @@
             <div class="ftco-46-text ftco-46-arrow-right">
               <h4 class="ftco-46-subheading">古早味</h4>
               <h3 class="ftco-46-heading">莲花酥</h3>
-              <p class="mb-5">小饼如嚼月，中有酥与饴</p>
+              <p class="mb-5 font-hei">小饼如嚼月，中有酥与饴</p>
               <p><a href="#" class="btn-link">Learn More <span class="ion-android-arrow-forward"></span></a></p>
             </div>
             <div class="ftco-46-image" id="img3"></div>
             <div class="ftco-46-text ftco-46-arrow-up">
               <h4 class="ftco-46-subheading">糖不甩</h4>
               <h3 class="ftco-46-heading">罗马盾牌</h3>
-              <p class="mb-5">情易散 糖不甩</p>
+              <p class="mb-5 font-hei">情易散 糖不甩</p>
               <p><a href="#" class="btn-link">Learn More <span class="ion-android-arrow-forward"></span></a></p>
             </div>
           </div>
@@ -176,7 +174,7 @@
             <div class="ftco-46-text ftco-46-arrow-left">
               <h4 class="ftco-46-subheading">酵母君</h4>
               <h3 class="ftco-46-heading">雪顶草莓奶露软欧</h3>
-              <p class="mb-5">面包会有的</p>
+              <p class="mb-5 font-hei">面包会有的</p>
               <p><a href="#" class="btn-link">Learn More <span class="ion-android-arrow-forward"></span></a></p>
             </div>
             <div class="ftco-46-image" id="img5"></div>
@@ -185,14 +183,14 @@
             <div class="ftco-46-text ftco-46-arrow-right">
               <h4 class="ftco-46-subheading">加餐饭</h4>
               <h3 class="ftco-46-heading">黑米糕</h3>
-              <p class="mb-5">鱼羹稻饭常餐也 - 桂花香馅裹胡桃，江米如珠井水淘</p>
+              <p class="mb-5 font-hei">鱼羹稻饭常餐也 - 桂花香馅裹胡桃，江米如珠井水淘</p>
               <p><a href="#" class="btn-link">Learn More <span class="ion-android-arrow-forward"></span></a></p>
             </div>
             <div class="ftco-46-image" id="img6"></div>
             <div class="ftco-46-text ftco-46-arrow-up">
               <h4 class="ftco-46-subheading">几分醺</h4>
               <h3 class="ftco-46-heading">凉虾</h3>
-              <p class="mb-5">山中何事？松花酿酒，春水煎茶</p>
+              <p class="mb-5 font-hei">山中何事？松花酿酒，春水煎茶</p>
               <p><a href="#" class="btn-link">Learn More <span class="ion-android-arrow-forward"></span></a></p>
             </div>
           </div>
